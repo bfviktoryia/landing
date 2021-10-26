@@ -1,0 +1,25 @@
+
+.title {
+
+    width: 400px;
+    font-size: 36px; 
+    margin: 54px auto 54px;
+    text-align: center;
+}
+.line {
+    width: 170px;
+    margin: auto;
+    border-bottom: 1px solid #ec7979
+
+}
+.description {
+    width: 450px ;   
+    margin: 40px auto 39px;
+
+}
+.description p { 
+    text-align: center;
+    font-size: 18px;  
+    color: #86878b;
+
+}

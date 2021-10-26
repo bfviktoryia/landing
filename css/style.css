@@ -1,0 +1,23 @@
+
+@import url('../css/awesome.css');
+@import url(../css/item.css);
+
+
+* {
+ box-sizing: border-box;
+}
+
+section {
+    margin-bottom: 50px;
+
+}
+
+.container {
+max-width: 1170px;
+margin: auto;
+padding: 0 15px;
+}
+
+
+
+   
