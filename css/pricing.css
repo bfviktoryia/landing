@@ -1,0 +1,59 @@
+.pricing {
+    background-color: #F5F5F5;
+    padding: 80px 0;
+}
+.pricing-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.pricing-item {
+    width: 340px;
+    list-style-type: none;
+}
+.pricing-item__1 {
+
+}
+.plan {
+   background-color: #333333;
+   line-height: 50px;
+   font-weight: 700;
+   font-size: 20px;
+   color: #ffffff;
+   margin-bottom: 1px;
+
+}
+.price {
+background-color: #333333;
+line-height: 100px;
+font-weight: 700;
+font-size: 35px;
+color: #ffffff;
+margin-bottom: 3px;
+}
+
+.duration {
+    background-color: #333333;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 4px;
+
+}
+.amount {
+    background-color: #ffffff;
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(134, 135, 139, 1);
+    margin-bottom: 4px;
+
+}
+.pricing-item__2 {
+
+}
+.pricing-item__3 {
+
+}
