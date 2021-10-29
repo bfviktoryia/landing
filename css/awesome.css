@@ -42,10 +42,15 @@ padding: 80px 0;
 .awesome-wrap {
 display: flex;
 flex-wrap: wrap;
+justify-content: space-between;
+margin: 0 -15px;
+
 }
 
 .awesome-item {
-    width: 350px
+    width: 350px;
+    margin: 0 15px;
+
     
 }
 .awesome-item-title {

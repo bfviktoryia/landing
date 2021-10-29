@@ -1,3 +1,9 @@
+ul {
+    padding-inline-start: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+
+}
 .pricing {
     background-color: #F5F5F5;
     padding: 80px 0;
@@ -5,55 +11,55 @@
 .pricing-wrap {
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
+    justify-content: space-between;
+    margin: 0 -15px;
 }
 
 .pricing-item {
     width: 340px;
     list-style-type: none;
-}
-.pricing-item__1 {
+    margin: 0 15px;
 
 }
-.plan {
+
+.pricing-item-plan {
    background-color: #333333;
    line-height: 50px;
    font-weight: 700;
    font-size: 20px;
+   text-align: center;
    color: #ffffff;
    margin-bottom: 1px;
 
+
 }
-.price {
+.pricing-item-price {
 background-color: #333333;
 line-height: 100px;
 font-weight: 700;
 font-size: 35px;
+text-align: center;
 color: #ffffff;
 margin-bottom: 3px;
 }
 
-.duration {
+.pricing-item-duration {
     background-color: #333333;
     line-height: 50px;
     font-weight: 600;
     font-size: 14px;
+    text-align: center;
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 4px;
 
 }
-.amount {
+.pricing-item-amount {
     background-color: #ffffff;
     line-height: 40px;
     font-weight: 400;
     font-size: 14px;
+    text-align: center;
     color: rgba(134, 135, 139, 1);
     margin-bottom: 4px;
-
-}
-.pricing-item__2 {
-
-}
-.pricing-item__3 {
 
 }
