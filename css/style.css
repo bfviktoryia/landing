@@ -1,5 +1,6 @@
 @import url(../css/awesome.css);
 @import url(../css/pricing.css);
+@import url(../css/custumers.css);
 
 html {
     font-family: "Open Sans", "Raleway",sans-serif;
@@ -8,7 +9,8 @@ html {
  box-sizing: border-box;
 }
 
-.section {
+section {
+    padding: 80px 0;
 
 }
 
