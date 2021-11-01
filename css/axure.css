@@ -1,0 +1,84 @@
+
+.axure {
+   background-image: url(../img/bg/background\ 1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   top: 0;
+   left: 0;
+   z-index: 3;
+
+}
+.axure::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+#title_axure {
+    width: 700px;
+    line-height: 42px;
+    font-family: "Raleway";
+    font-weight: 400; 
+    font-size: 36px; 
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    margin: auto;
+    margin-bottom: 34px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+
+}
+#title_axure::after
+{
+    content: "";
+    width: 170px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    margin: 34px auto;
+    position: relative;
+    z-index: 1;
+}
+#description_axure {
+    width: 700px;   
+    line-height: 19px;
+    margin: auto;
+    margin-bottom: 68px;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+}
+#description_axure p {
+    text-align: center;
+    font-size: 14px;  
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 42px;
+    color: rgba(255, 255, 255, 1);
+    border: 3px solid rgba(255, 255, 255, 1);
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+

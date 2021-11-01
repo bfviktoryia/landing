@@ -1,12 +1,15 @@
 @import url(../css/awesome.css);
 @import url(../css/pricing.css);
 @import url(../css/custumers.css);
+@import url(../css/axure.css);
 
 html {
     font-family: "Open Sans", "Raleway",sans-serif;
 }
 * {
  box-sizing: border-box;
+ text-decoration: none;
+
 }
 
 section {

@@ -38,8 +38,6 @@ border-left: 20px solid transparent;
 border-right: 20px solid transparent;
 border-top: 20px solid rgba(226, 226, 226, 1);
 position: absolute;
-/* top: 130px;
-left: 50px; */
 top: 100%;
 left: 15%;
 }
@@ -51,15 +49,16 @@ left: 15%;
     flex-direction: row;
     justify-content: space-between;
 }
-img {
-    display: block;
-    margin: auto;
-}
-.customers-item-wrap__avatar {
-    /* border: 2px solid chocolate; */
-    border-radius: 50%;
+
+.customers-item-wrap__image {
+   
 }
 
+#customers-item-wrap__image_avatar {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
 .customers-item-wrap__id {
     display: flex;
     flex-wrap: wrap;
