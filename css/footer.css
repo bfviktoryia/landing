@@ -21,6 +21,7 @@
     justify-content: space-between;
 }
 .footer-block__item {
+    margin-bottom: 18px;
      
     
 }
@@ -28,8 +29,8 @@
     width: 130px;
     font-size: 12px;
     line-height: 12.5px;
-   text-transform: capitalize; 
-   color: rgba(255, 255, 255, 0.5)
+    text-transform: capitalize; 
+    color: rgba(255, 255, 255, 0.5)
    ;
 }
 

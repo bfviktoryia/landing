@@ -64,20 +64,11 @@ margin: 0 -15px;
     
 }
 
-/* .fa-lightbulb {
-    font-size: 30px;
-    
-    }
-    .fa-keyboard {
-    font-size: 26px;
-    }
-    .fa-bolt {
-        font-size: 33px;
-        
-    } */
+
 .awesome-block {
     display: flex;
     margin: auto;
+    margin-bottom: 30px;
     color: #E72424;
     width: 70px;
     height: 70px;
