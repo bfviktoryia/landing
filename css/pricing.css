@@ -1,3 +1,4 @@
+
 ul {
     padding-inline-start: 0px;
     margin-block-start: 0em;
@@ -16,8 +17,14 @@ ul {
 
 .pricing-item {
     width: 340px;
-    list-style-type: none;
     margin: 0 15px;
+    transition: 0.2s;
+
+}
+
+.pricing-item:hover {
+    box-shadow: 0px 12px 10px 0px rgba(68, 66, 66, 0.3);
+    transform: translate(0px, -12px);
 
 }
 

@@ -2,13 +2,18 @@
 @import url(../css/pricing.css);
 @import url(../css/custumers.css);
 @import url(../css/auxure.css);
-
+@import url(../css/header.css);
+@import url(../css/footer.css);
+@import url(../css/social.css);
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 html {
     font-family: "Open Sans", "Raleway",sans-serif;
 }
 * {
  box-sizing: border-box;
  text-decoration: none;
+ list-style-type: none;
+
 
 }
 
@@ -21,6 +26,8 @@ section {
 max-width: 1170px;
 margin: auto;
 padding: 0 15px;
+position: relative;
+z-index: 1;
 }
 
 

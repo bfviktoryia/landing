@@ -52,12 +52,7 @@ margin: 0 -15px;
 .awesome-item {
     width: 350px;
     margin: 0 15px;
-
-    
-}
-img {
-    display: block;
-    margin: 20px auto 20px;
+  
 }
 
 .awesome-item-title {
@@ -69,22 +64,37 @@ img {
     
 }
 
+/* .fa-lightbulb {
+    font-size: 30px;
+    
+    }
+    .fa-keyboard {
+    font-size: 26px;
+    }
+    .fa-bolt {
+        font-size: 33px;
+        
+    } */
 .awesome-block {
     display: flex;
     margin: auto;
+    color: #E72424;
     width: 70px;
     height: 70px;
     border: 1px solid #E72424;   
     border-radius: 50px; 
     justify-content: center;
     align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+
 }
 
 .awesome-item-text {
 
 }
 .awesome-item-text p {
-   text-align: center;
+    text-align: center;
     font-size: 14px;
     font-weight: 400;
 }    

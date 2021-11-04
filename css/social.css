@@ -1,0 +1,121 @@
+.social {
+    background-color: rgba(248, 239, 239, 1);
+    padding-top: 14px;
+    padding-bottom: 17px;
+    
+}
+.container {
+}
+.social-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.social-block {
+    width: 684px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: row; */
+}
+.social-block__item {
+
+}
+
+.social-text {
+    width: 365px;
+  
+}
+.social-title {
+    font-size: 20px;
+    line-height: 21px;
+    font-weight: 700;
+    color: rgba(51, 51, 51, 1);
+    
+
+}
+.social-paragraf p {
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 400;
+    color: rgba(134, 135, 139, 1);
+
+
+}
+
+.facebook {
+    font-size: 42px;
+    color: rgba(134, 135, 139, 1);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.facebook:hover
+{
+    color: #3b5998;
+}
+
+.twitter {
+    font-size: 42px;
+    color: rgba(134, 135, 139, 1);
+    cursor: pointer;
+    transition: 0.2s;
+
+
+}
+.twitter:hover {
+color: #00acee;
+}
+.google {
+    font-size: 42px;
+    color: rgba(134, 135, 139, 1);
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+.google:hover {
+    color: #Ea4335;
+}
+.pinterest {
+    font-size: 42px;
+    color: rgba(134, 135, 139, 1);
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+.pinterest:hover {
+    color: #e60023;
+}
+
+.instagram {
+    font-size: 42px;
+    color: rgba(134, 135, 139, 1);
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+.instagram:hover {
+    color: #000;
+}
+.stumbleupon {
+    font-size: 42px;
+    color: rgba(134, 135, 139, 1);
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+.stumbleupon:hover {
+    color: #fd8235;
+
+}
+.rss {
+    font-size: 42px;
+    color: rgba(134, 135, 139, 1);
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+.rss:hover {
+    color: orange;
+}

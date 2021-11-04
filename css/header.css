@@ -1,0 +1,64 @@
+.header {
+    background: #000;
+    /* top: 0;
+    left: 0;
+    position: relatove; */
+}
+.header-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: row; */
+    align-items: center;
+}
+.logo-text {
+    width: 38px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+
+.logo-text p {    
+    
+}
+
+
+.logo-text::after {
+    content: "it";
+    width: 34px;
+    height:30px;
+    text-transform: uppercase;
+    color: #E72424;
+
+}
+
+.navigation {
+    /* display: flex;
+    flex-wrap: wrap;
+    max-width: 353px; */
+
+}
+
+.navigation-block {
+    width: 353px; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navigation_block__item {
+    line-height: 21px;
+    font-style: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 600;
+    cursor: pointer;}

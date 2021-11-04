@@ -1,0 +1,78 @@
+.footer {
+    background-color: #000;
+}
+.container {
+}
+.footer-wrap {
+    width: 317px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+
+}
+.footer-block {
+    width: 317px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-block__item {
+     
+    
+}
+.footer-text {
+    width: 130px;
+    font-size: 12px;
+    line-height: 12.5px;
+   text-transform: capitalize; 
+   color: rgba(255, 255, 255, 0.5)
+   ;
+}
+
+
+.fa-facebook-f {
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+}
+.fa-twitter {
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+}
+.fa-google-plus-g {
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+}
+.fa-pinterest {
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+}
+.fa-instagram {
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+}
+.fa-stumbleupon {
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+}
+.fa-rss {
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+}
