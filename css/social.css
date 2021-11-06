@@ -66,15 +66,15 @@
 .twitter:hover {
 color: #00acee;
 }
-.google {
+.linkedin {
     font-size: 42px;
     color: rgba(134, 135, 139, 1);
     cursor: pointer;
     transition: 0.2s;
 
 }
-.google:hover {
-    color: #Ea4335;
+.linkedin:hover {
+    color: #0e76a8;
 }
 .pinterest {
     font-size: 42px;
@@ -108,13 +108,13 @@ color: #00acee;
     color: #fd8235;
 
 }
-.rss {
+.telegram {
     font-size: 42px;
     color: rgba(134, 135, 139, 1);
     cursor: pointer;
     transition: 0.2s;
 
 }
-.rss:hover {
-    color: orange;
+.telegram:hover {
+    color: #0088cc;
 }

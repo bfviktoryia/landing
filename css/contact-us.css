@@ -1,0 +1,104 @@
+
+form {
+    
+}
+label {
+    line-height: 19px;
+    color: #BDBDBD;
+    
+    }
+textarea {
+        display: block;
+        width: 478px;
+        height: 216px;
+        border-top: 1px solid transparent;
+        border-left: 1px solid transparent;
+        border-right: 1px solid transparent;
+        border-bottom: 1px solid #BDBDBD;
+        font-family: "Open Sans";
+        font-size: 15px;
+        line-height: 20px;
+        resize: none;
+        margin-bottom: 69px;
+        outline-color: #EC7979;
+
+    }
+
+#name {
+    width: 478px;
+    line-height: 32px;
+    color: #0c0b0b;
+    display: block;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid #BDBDBD;
+    font-family: "Open Sans";
+    font-size: 15px;
+    /* outline: none; */
+}
+#email {
+    width: 478px;
+    line-height: 32px;
+    color: #0c0b0b;
+    display: block;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid #BDBDBD;
+    font-family: "Open Sans";
+    font-size: 15px;
+    outline: none;
+}
+#password { 
+    width: 478px;
+line-height: 32px;
+color: #0c0b0b;
+display: block;
+border-top: 1px solid transparent;
+border-left: 1px solid transparent;
+border-right: 1px solid transparent;
+border-bottom: 1px solid #BDBDBD;
+font-family: "Open Sans";
+font-size: 15px;
+outline: none;
+}
+
+.form-contacts-wrap {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.form-left-wrap {    
+
+
+}
+.form-left__name {
+    margin-bottom: 32px;
+    
+}
+.form-left__email {
+    margin-bottom: 32px;
+}
+.form-left__password {
+    margin-bottom: 32px;
+}
+.form-right {
+margin-bottom: 37px;
+}
+ button {
+    display: block;
+    width: 166px;
+    height: 42px;
+    background-color: #EC7979;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    color: white;
+    /* border: 1px solid transparent; */
+    margin: auto;
+    border: none;
+    cursor: pointer;
+
+ }
