@@ -1,4 +1,4 @@
-.header-modern {
+.modern {
 position: relative;
 background-image: url(../img/bg/background-header-modern.png);
 background-size: cover;
@@ -7,7 +7,7 @@ background-position: center;
 
 }
 
-.header-modern:after {
+.modern:after {
 content: "";
 display: block;
 background-color: rgba(0, 0, 0, 0.45);;
@@ -16,28 +16,25 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
-
 }
 
-.header_modern__wrap {
-    display: flex;
+.modern__wrap {
+display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
+align-items:flex-start;
 margin: 0 -15px;
 }
 
-.header-modern__left-wrap {
+.modern__left-wrap {
 width: 544px;
-display: flex;
-flex-wrap: wrap;
 margin: 0 15px;
 
 }
-.header-modern__logo {
+.modern__logo {
     margin-bottom: 32px;
 }
-.header_modern__logo-text {
-display: block;
+.modern__logo-text {
 font-size: 70px;
 font-family: "Roboto";
 font-weight: 400;
@@ -46,18 +43,14 @@ color: white;
 position: relative;
 
 }
-.header_modern__logo-text::after {
+.modern__logo-text::after {
     content: "it";
-    display: block;
-    position: absolute;
     text-transform: uppercase;
     color: #EC7979;
     height: 70px;
-    top: 0;
-    left: 100%;
 }
 
-.header-modern__title {
+.modern__title {
     width: 544px;
     font-family: "Raleway";
     font-size: 36px;
@@ -67,7 +60,7 @@ position: relative;
     margin-bottom: 32px;
 }
 
-.header-modern__title::after {
+.modern__title::after {
     content: "";
     width: 64px;
     height: 1px;
@@ -76,11 +69,11 @@ position: relative;
     margin-top: 34px;
     margin-bottom: 34px;}
 
-.header-modern__description {
-margin-bottom: 39px;
+.modern__description {
+    margin-bottom: 39px;
     }
 
-.header-modern__description p {
+.modern__description p {
     width: 700px;   
     line-height: 19px;
     margin: auto;
@@ -88,27 +81,44 @@ margin-bottom: 39px;
     color: white;
     font-weight: 400;
 }
-.header-modern__link {
+.modern__link {
     width: 132px;
     border: 1px solid white;
     padding: 11px 26px;
     text-align: center;
     cursor: pointer;
-}
+    transition: 0.2s;
+    animation-name: download;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 
+
+}
+.modern__link:hover {
+    background-color: #EC7979;
+    animation-play-state: paused;
+    }
+
+@keyframes download {
+    0% {
+    
+    }
+    100% {
+    transform: scale(1.1);
+    }
+    
+    }
 
 .form-content {
-    display: flex;
-    flex-wrap: wrap;
     width: 370px;
     background-color: #fff;
     border-radius: 8px 8px 0 0;
-    padding: 15px 0;
+    padding: 15px 50px;
 }
 
 
-
-.header-modern__form-title {
+.modern__form-title {
     text-transform: capitalize;
     font-weight: 700;
     font-size: 20px;
@@ -118,64 +128,24 @@ margin-bottom: 39px;
 
 }
 
-.header-modern__form-title::after {
-    content: "free";
-    display: block;
-    text-transform: uppercase;
-    color:#EC7979;
-    font-weight: 700;
-    position: absolute;
-    top: 0;
-    left: 120%;
-}
 
-.header-modern__input {
-    display: block;
-    margin: auto;
-}
-
-#header-modern__input_name {
-    display: block;
+input {
+    /* display: block; */
+    width: 100%;
     font-family: "Open Sans";
     font-weight: 400;
     margin-bottom: 16px;
-    width: 252px;
-    line-height: 16px;
     border-top: 1px solid transparent;
     border-left: 1px solid transparent;
     border-right: 1px solid transparent;
     border-bottom: 1px solid #BDBDBD;
     outline: none;
-}
-#header-modern__input_email {
-    display: block;
-    font-family: "Open Sans";
-    font-weight: 400;
-    margin-bottom: 16px;
-    width: 252px;
-    line-height: 16px;
-    border-top: 1px solid transparent;
-border-left: 1px solid transparent;
-border-right: 1px solid transparent;
-border-bottom: 1px solid #BDBDBD;
-outline: none;
-}
-#header-modern__input_password {
-    display: block;
-    font-family: "Open Sans";
-    font-weight: 400;
-    margin-bottom: 61px;
-    width: 252px;
-    line-height: 16px;
-    border-top: 1px solid transparent;
-    border-left: 1px solid transparent;
-    border-right: 1px solid transparent;
-    border-bottom: 1px solid #BDBDBD;
-    outline: none;
+    padding: 7px 0;
 
 }
 
-#header-modern__input_button {
+
+.btn {
     display: block;
     height: 54px;
     width: 370px;

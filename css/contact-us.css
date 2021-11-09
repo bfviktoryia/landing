@@ -7,63 +7,6 @@ label {
     color: #BDBDBD;
     
     }
-textarea {
-        display: block;
-        width: 478px;
-        height: 210px;
-        border-top: 1px solid transparent;
-        border-left: 1px solid transparent;
-        border-right: 1px solid transparent;
-        border-bottom: 1px solid #BDBDBD;
-        font-family: "Open Sans";
-        font-size: 15px;
-        line-height: 20px;
-        resize: none;
-        margin-bottom: 69px;
-        outline-color: #EC7979;
-        margin: 0 15px;
-
-    }
-
-#name {
-    width: 478px;
-    line-height: 32px;
-    color: #0c0b0b;
-    display: block;
-    border-top: 1px solid transparent;
-    border-left: 1px solid transparent;
-    border-right: 1px solid transparent;
-    border-bottom: 1px solid #BDBDBD;
-    font-family: "Open Sans";
-    font-size: 15px;
-    outline: none;
-}
-#email {
-    width: 478px;
-    line-height: 32px;
-    color: #0c0b0b;
-    display: block;
-    border-top: 1px solid transparent;
-    border-left: 1px solid transparent;
-    border-right: 1px solid transparent;
-    border-bottom: 1px solid #BDBDBD;
-    font-family: "Open Sans";
-    font-size: 15px;
-    outline: none;
-}
-#password { 
-    width: 478px;
-line-height: 32px;
-color: #0c0b0b;
-display: block;
-border-top: 1px solid transparent;
-border-left: 1px solid transparent;
-border-right: 1px solid transparent;
-border-bottom: 1px solid #BDBDBD;
-font-family: "Open Sans";
-font-size: 15px;
-outline: none;
-}
 
 .form-contacts-wrap {
    display: flex;
@@ -71,36 +14,50 @@ outline: none;
    flex-direction: row;
    justify-content: space-between;
    margin: 0 -15px;
-
 }
 
 .form-left-wrap {    
     margin: 0 15px;
-    width: 166px;
+    width: 40%;
     margin-bottom: 37px;
 
+}
+.name {
+    margin-bottom: 32px; 
+}
+.email {
+    margin-bottom: 32px;
+}
+.password {
+    margin-bottom: 32px;
+}
 
 
-}
-.form-left__name {
-    margin-bottom: 32px;
-    
-}
-.form-left__email {
-    margin-bottom: 32px;
-}
-.form-left__password {
-    margin-bottom: 32px;
-}
 .form-right {
-margin-bottom: 37px;
-    width: 478px;
-
+    margin-bottom: 37px;
+    width: 40%;
 }
-#form-contacts__button {
+textarea {
+    display: block;
+    width: 478px;
+    height: 210px;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid #BDBDBD;
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 20px;
+    resize: none;
+    margin-bottom: 69px;
+    outline-color: #EC7979;
+    margin: 0 15px;
+}
+
+ .contuct-us__btn {
     display: block;
     width: 166px;
-    height: 42px;
+    height: 50px;
     background-color: #EC7979;
     font-size: 15px;
     font-weight: 600;
@@ -109,5 +66,9 @@ margin-bottom: 37px;
     margin: auto;
     border: none;
     cursor: pointer;
+    transition: 0.2s;
 
+ }
+ .contuct-us__btn:hover {
+     transform: scale(1.1);
  }

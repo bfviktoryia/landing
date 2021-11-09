@@ -70,10 +70,8 @@ a:hover {
     border: 1px solid rgba(255, 255, 255, 1);
     margin: auto;
     padding: 11px 26px;
-    text-align: center;
     cursor: pointer;
     transition: 0.2s;
-    position: relative;
     left: 0;
     animation-name: link;
     animation-duration: 1s;
@@ -81,8 +79,8 @@ a:hover {
     animation-direction: alternate;
 
 }
-.link:hover {
-    background-color:rgba(236, 121, 121, 1);  
+.auxure_link:hover {
+    background-color: #EC7979;
     animation-play-state: paused;
 
 }
