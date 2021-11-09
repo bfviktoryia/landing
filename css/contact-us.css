@@ -10,7 +10,7 @@ label {
 textarea {
         display: block;
         width: 478px;
-        height: 216px;
+        height: 210px;
         border-top: 1px solid transparent;
         border-left: 1px solid transparent;
         border-right: 1px solid transparent;
@@ -21,6 +21,7 @@ textarea {
         resize: none;
         margin-bottom: 69px;
         outline-color: #EC7979;
+        margin: 0 15px;
 
     }
 
@@ -35,7 +36,7 @@ textarea {
     border-bottom: 1px solid #BDBDBD;
     font-family: "Open Sans";
     font-size: 15px;
-    /* outline: none; */
+    outline: none;
 }
 #email {
     width: 478px;
@@ -66,11 +67,18 @@ outline: none;
 
 .form-contacts-wrap {
    display: flex;
+   flex-wrap: wrap;
    flex-direction: row;
    justify-content: space-between;
+   margin: 0 -15px;
+
 }
 
 .form-left-wrap {    
+    margin: 0 15px;
+    width: 166px;
+    margin-bottom: 37px;
+
 
 
 }
@@ -86,8 +94,10 @@ outline: none;
 }
 .form-right {
 margin-bottom: 37px;
+    width: 478px;
+
 }
- button {
+#form-contacts__button {
     display: block;
     width: 166px;
     height: 42px;
@@ -96,7 +106,6 @@ margin-bottom: 37px;
     font-weight: 600;
     font-family: "Open Sans";
     color: white;
-    /* border: 1px solid transparent; */
     margin: auto;
     border: none;
     cursor: pointer;

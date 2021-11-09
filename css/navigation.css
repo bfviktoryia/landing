@@ -5,13 +5,13 @@ p {
     margin-inline-end: 0px;
 }
 
-.header {
+.navigation-header {
     background: #000;
     padding: 15px 0;
 
    
 }
-.header-wrap {
+.navigation-header-wrap {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -28,6 +28,7 @@ p {
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 400;
+    font-family: "Raleway";
     color: white;
 }
 
@@ -37,10 +38,9 @@ p {
 
 .logo-text::after {
     content: "it";
-    width: 34px;
     height:30px;
     text-transform: uppercase;
-    color: #E72424;
+    color: #EC7979;
 }
 
 .navigation {
