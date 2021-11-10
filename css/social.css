@@ -3,8 +3,7 @@
     padding: 14px 0 17px;
     
 }
-.container {
-}
+
 .social-wrap {
     display: flex;
     flex-wrap: wrap;
@@ -30,7 +29,8 @@
   
 }
 .social-title {
-    font-size: 20px;
+    /* font-size: 20px; */
+font-size: 1.25rem;
     line-height: 27px;
     font-weight: 700;
     color: rgba(51, 51, 51, 1);
@@ -38,7 +38,8 @@
     
 }
 .social-paragraf p {
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 0.86rem;
     line-height: 15px;
     font-weight: 400;
     color: rgba(134, 135, 139, 1);
@@ -46,7 +47,8 @@
 
 .facebook {
     font-size: 42px;
-    color: rgba(134, 135, 139, 1);
+    /* font-size: 0.86rem; */
+        color: rgba(134, 135, 139, 1);
     cursor: pointer;
     transition: 0.2s;
 }
@@ -57,17 +59,17 @@
 
 .twitter {
     font-size: 42px;
+    /* font-size: 0.86rem; */
     color: rgba(134, 135, 139, 1);
     cursor: pointer;
     transition: 0.2s;
-
-
 }
 .twitter:hover {
 color: #00acee;
 }
 .linkedin {
     font-size: 42px;
+    /* font-size: 0.86rem; */
     color: rgba(134, 135, 139, 1);
     cursor: pointer;
     transition: 0.2s;
@@ -78,6 +80,7 @@ color: #00acee;
 }
 .pinterest {
     font-size: 42px;
+    /* font-size: 0.86rem; */
     color: rgba(134, 135, 139, 1);
     cursor: pointer;
     transition: 0.2s;
@@ -89,16 +92,17 @@ color: #00acee;
 
 .instagram {
     font-size: 42px;
+    /* font-size: 0.86rem; */
     color: rgba(134, 135, 139, 1);
     cursor: pointer;
     transition: 0.2s;
-
 }
 .instagram:hover {
     color: #000;
 }
 .stumbleupon {
     font-size: 42px;
+    /* font-size: 0.86rem; */
     color: rgba(134, 135, 139, 1);
     cursor: pointer;
     transition: 0.2s;
@@ -110,6 +114,7 @@ color: #00acee;
 }
 .telegram {
     font-size: 42px;
+    /* font-size: 0.86rem; */
     color: rgba(134, 135, 139, 1);
     cursor: pointer;
     transition: 0.2s;
@@ -117,4 +122,48 @@ color: #00acee;
 }
 .telegram:hover {
     color: #0088cc;
+}
+
+@media (max-width:1109px)
+{
+    .social-block {
+        width: 520px;
+    }
+
+}
+@media (max-width:1024px)
+{  
+   .facebook {
+        font-size: 32px;
+    }
+    .twitter {
+        font-size: 32px;
+    }  
+    .linkedin {
+        font-size: 32px;
+    }   
+    .pinterest {
+        font-size: 32px;
+    }
+    .instagram {
+        font-size: 32px;
+    }
+    .stumbleupon {
+        font-size: 32px;
+    }
+    .telegram {
+        font-size: 32px;
+    }
+}
+
+@media (max-width:944px) {
+    .social-block {
+        width: 490px;
+    }
+    
+}
+@media (max-width:914px) {
+    .social {
+        display: none;
+    }
 }

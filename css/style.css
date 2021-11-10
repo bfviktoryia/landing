@@ -1,12 +1,14 @@
+@import url(../css/navigation.css);
+@import url(../css/modern.css);
+@import url(../css/tabs.css);
 @import url(../css/awesome.css);
 @import url(../css/pricing.css);
 @import url(../css/custumers.css);
 @import url(../css/auxure.css);
-@import url(../css/navigation.css);
-@import url(../css/modern.css);
+@import url(../css/contact-us.css);
 @import url(../css/footer.css);
 @import url(../css/social.css);
-@import url(../css/contact-us.css);
+
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 
 html {
@@ -35,6 +37,33 @@ position: relative;
 z-index: 1;
 }
 
+@media (max-width:1079px)
+{
+    html {
+        font-size: 15px;
+    }
+}
 
+@media (max-width:1024px)
+{
+    html {
+        font-size: 13px;
+    }
+    section {
+        padding: 65px 0;
+    }
+}
 
-   
+@media (max-width:933px) {
+    {font-size: 10px;}
+    section {
+        padding: 45px 0;
+    }
+}
+@media (max-width:768px)
+{    {font-size: 8px;}
+}
+@media (max-width:705px){
+    {font-size: 6px;}
+}
+

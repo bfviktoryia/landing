@@ -32,7 +32,8 @@ ul {
    background-color: #333333;
    line-height: 50px;
    font-weight: 700;
-   font-size: 20px;
+   /* font-size: 20px; */
+   font-size: 1.25rem;
    text-align: center;
    color: #ffffff;
    margin-bottom: 1px;
@@ -43,7 +44,8 @@ ul {
 background-color: #333333;
 line-height: 100px;
 font-weight: 700;
-font-size: 35px;
+/* font-size: 35px; */
+font-size: 2.19rem;
 text-align: center;
 color: #ffffff;
 margin-bottom: 3px;
@@ -53,7 +55,8 @@ margin-bottom: 3px;
     background-color: #333333;
     line-height: 50px;
     font-weight: 600;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 0.86rem;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 4px;
@@ -63,9 +66,54 @@ margin-bottom: 3px;
     background-color: #ffffff;
     line-height: 40px;
     font-weight: 400;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 0.86rem;
+
     text-align: center;
     color: rgba(134, 135, 139, 1);
     margin-bottom: 4px;
 
 }
+@media (max-width:1109px)
+{
+    
+    .pricing-item {
+        width: 320px;}
+}
+
+@media (max-width:1049px)
+{
+
+    .pricing-item {
+        width: 300px;}
+}
+@media (max-width:989px)
+{
+    .pricing-item {
+        width: 270px;}
+    .pricing-item-plan {
+        line-height: 40px;
+    }
+    .pricing-item-price {
+        line-height: 85px;
+        }
+            
+    .pricing-item-duration {
+        line-height: 40px;
+    }
+    .pricing-item-amount{
+        line-height: 30px;
+    }
+
+}
+@media (max-width:909px) {
+    .pricing-wrap {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+    .pricing-item {
+        margin-bottom: 20px;
+    }
+    }
+

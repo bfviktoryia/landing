@@ -4,7 +4,7 @@ background-image: url(../img/bg/background-header-modern.png);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-
+/* height: 100vh; */
 }
 
 .modern:after {
@@ -35,7 +35,8 @@ margin: 0 15px;
     margin-bottom: 32px;
 }
 .modern__logo-text {
-font-size: 70px;
+/* font-size: 70px; */
+font-size: 4.375rem;
 font-family: "Roboto";
 font-weight: 400;
 text-transform: uppercase;
@@ -53,7 +54,8 @@ position: relative;
 .modern__title {
     width: 544px;
     font-family: "Raleway";
-    font-size: 36px;
+    /* font-size: 36px; */
+font-size: 2.25rem;
     font-weight: 400;
     color: white;
     text-transform: uppercase;
@@ -110,6 +112,10 @@ position: relative;
     
     }
 
+.modern-form {
+        margin: 0 15px;
+
+}
 .form-content {
     width: 370px;
     background-color: #fff;
@@ -121,8 +127,10 @@ position: relative;
 .modern__form-title {
     text-transform: capitalize;
     font-weight: 700;
-    font-size: 20px;
+    /* font-size: 23px; */
+    font-size: 1.3rem;
     margin: auto;
+    text-align: center;
     margin-bottom: 44px;
     position: relative;
 
@@ -148,14 +156,62 @@ input {
 .btn {
     display: block;
     height: 54px;
-    width: 370px;
+    width: 100%;
     border-radius: 0 0 8px 8px;
     background-color: #EC7979;
-    font-size: 15px;
+font-size: 0.94rem;
+/* font-size: 15px; */
     font-weight: 600;
     font-family: "Open Sans";
     color: white;
     border: none;
     cursor: pointer;
 
+}
+
+@media (max-width:1024px)
+{
+    .form-content {
+        width: 350px;
+    }
+    .modern__link {
+        width: 120px;
+}
+}
+@media (max-width:1009px)
+{
+    .form-content {
+        width: 330px;
+    }
+}
+@media (max-width:933px) {
+    .modern__wrap {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modern__left-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        text-align: center;
+    }
+    .modern__title::after {
+        margin: auto;    }
+
+    /* .modern__title {
+            margin-bottom: 50px;
+        }
+    .modern__description {
+            margin-bottom: 10px;
+            } */
+    .modern__link {
+                width: 100px;
+                padding: 8px 18px;
+                margin-bottom: 30px;
+
+
+        }
 }

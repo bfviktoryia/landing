@@ -1,4 +1,3 @@
-
 form {
     
 }
@@ -35,23 +34,25 @@ label {
 
 .form-right {
     margin-bottom: 37px;
-    width: 40%;
+    margin: 0 15px;
+
 }
 textarea {
     display: block;
-    width: 478px;
+    width: 450px;
     height: 210px;
     border-top: 1px solid transparent;
     border-left: 1px solid transparent;
     border-right: 1px solid transparent;
     border-bottom: 1px solid #BDBDBD;
     font-family: "Open Sans";
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 0.94rem;
     line-height: 20px;
     resize: none;
     margin-bottom: 69px;
     outline-color: #EC7979;
-    margin: 0 15px;
+   
 }
 
  .contuct-us__btn {
@@ -59,7 +60,8 @@ textarea {
     width: 166px;
     height: 50px;
     background-color: #EC7979;
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 0.94rem;
     font-weight: 600;
     font-family: "Open Sans";
     color: white;
@@ -71,4 +73,29 @@ textarea {
  }
  .contuct-us__btn:hover {
      transform: scale(1.1);
+ }
+
+ @media (max-width:1024px)
+ {
+    .contuct-us__btn {
+        width: 156px;
+        height: 40px;
+    }
+ }
+
+ @media (max-width:933px)
+ {
+    .contuct-us__btn {
+        width: 146px;
+        height: 30px;
+    }
+ }
+
+ @media (max-width:852px) {
+    .form-contacts-wrap {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+    }
+
  }
