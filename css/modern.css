@@ -193,14 +193,15 @@ input {
     .modern__title::after {
         margin: auto;  
         margin-top: 20px;
-        margin-bottom: 20px;}  }
+        margin-bottom: 20px;}  
 
-    .modern__link {
+    .modern__link {   
                 width: 100px;
                 padding: 8px 18px;
                 margin-bottom: 30px;
         }
 }
+
 @media (max-width:572px)
 {
     .modern-form {
