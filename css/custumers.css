@@ -23,7 +23,6 @@
 .customers-item__text p {
     text-align: center;
     font-weight: 400;
-    /* font-size: 14px; */
     font-size: 0.86rem;
     color: rgba(134, 135, 139, 1);
 
@@ -75,14 +74,12 @@ left: 15%;
 }
 .customers-item__id_name {
 font-weight: 700;
-/* font-size: 20px; */
 font-size: 1.25rem;
 color: rgba(51, 51, 51, 1);
 
 }
 .customers-item__id_position {
     font-weight: 400;
-    /* font-size: 14px; */
     font-size: 0.86rem;
     color: rgba(134, 135, 139, 1);
     align-self: flex-end;
@@ -97,7 +94,6 @@ color: rgba(51, 51, 51, 1);
 }
 @media (max-width:983px)
 {
-
     .customers-item {
         width: 270px;
         margin-bottom: 15px;
@@ -110,8 +106,12 @@ color: rgba(51, 51, 51, 1);
         justify-content: center;
         align-items: center;
     }
-
-    .customers-item {
+  .customers-item {
+        width: 298px;
         margin-bottom: 15px;
     }
+}
+@media (max-width:430px){
+    .customers-item {
+        width: 280px;
 }

@@ -133,6 +133,8 @@ color: #00acee;
 }
 @media (max-width:1024px)
 {  
+    .social-block {
+        width: 490px;}
    .facebook {
         font-size: 32px;
     }
@@ -156,14 +158,18 @@ color: #00acee;
     }
 }
 
-@media (max-width:944px) {
-    .social-block {
-        width: 490px;
-    }
-    
+@media (max-width:1009px) {
 }
-@media (max-width:914px) {
-    .social {
+     
+    
+@media (max-width:913px) {
+    .social-block {
+        width: 470px;}
+   
+}
+
+@media (max-width:894px) {
+   .social {
         display: none;
     }
 }

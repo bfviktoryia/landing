@@ -25,7 +25,6 @@
     line-height: 42px;
     font-family: "Raleway";
     font-weight: 400; 
-    /* font-size: 36px;  */
     font-size: 2.25rem;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 1);
@@ -55,7 +54,6 @@
 }
 .description_auxure p {
     text-align: center;
-    /* font-size: 14px;   */
     font-size: 0.86rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.8);
@@ -90,13 +88,11 @@ a:hover {
 
 @keyframes link {
 0%{
-
 }
 100%{
     transform: scale(1.1);
 }
 }
-
 @media (max-width:1024px)
 {
     .auxure_link {
@@ -117,4 +113,13 @@ padding: 8px 18px;
     .description_auxure {
             width: 400px;}
 }
+@media (max-width:430px) {
+    .title_auxure {
+        width: 280px;}
+    .description_auxure {
+        width: 280px;}
+    .auxure_link  {
+        width: 280px;
+}
+
 
