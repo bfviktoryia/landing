@@ -52,11 +52,11 @@ position: relative;
 
 .modern__title {
     font-family: "Raleway";
-font-size: 2.25rem;
+    font-size: 2.25rem;
     font-weight: 400;
     color: white;
     text-transform: uppercase;
-    margin-bottom: 32px;
+    margin-bottom: 20px;
 }
 
 .modern__title::after {
@@ -111,14 +111,14 @@ font-size: 2.25rem;
 .modern-form {
     margin: 0 15px;
     width: 370px;
-    border-radius: 8px 8px 8px 8px;
+    border-radius: 8px;
     overflow: hidden;
 
 
 }
 .form-content {
     background-color: #fff;
-    padding: 15px 50px;
+    padding: 20px 50px;
 
 }
 
@@ -160,13 +160,11 @@ input {
     color: white;
     border: none;
     cursor: pointer;
-
 }
 
 @media (max-width:1024px)
 {
-   
-    .modern-form {
+     .modern-form {
         width: 350px;
     }
     .modern__link {
@@ -184,9 +182,7 @@ input {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
     }
-
     .modern__left-wrap {
         display: flex;
         flex-direction: column;
@@ -195,8 +191,9 @@ input {
         text-align: center;
     }
     .modern__title::after {
-        margin: auto;    }
-
+        margin: auto;  
+        margin-top: 20px;
+        margin-bottom: 20px;}  }
 
     .modern__link {
                 width: 100px;
