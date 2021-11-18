@@ -29,7 +29,6 @@
   
 }
 .social-title {
-    /* font-size: 20px; */
 font-size: 1.25rem;
     line-height: 27px;
     font-weight: 700;
@@ -38,7 +37,6 @@ font-size: 1.25rem;
     
 }
 .social-paragraf p {
-    /* font-size: 14px; */
     font-size: 0.86rem;
     line-height: 15px;
     font-weight: 400;
@@ -47,7 +45,6 @@ font-size: 1.25rem;
 
 .facebook {
     font-size: 42px;
-    /* font-size: 0.86rem; */
         color: rgba(134, 135, 139, 1);
     cursor: pointer;
     transition: 0.2s;
@@ -59,7 +56,6 @@ font-size: 1.25rem;
 
 .twitter {
     font-size: 42px;
-    /* font-size: 0.86rem; */
     color: rgba(134, 135, 139, 1);
     cursor: pointer;
     transition: 0.2s;
@@ -69,7 +65,6 @@ color: #00acee;
 }
 .linkedin {
     font-size: 42px;
-    /* font-size: 0.86rem; */
     color: rgba(134, 135, 139, 1);
     cursor: pointer;
     transition: 0.2s;
@@ -80,7 +75,6 @@ color: #00acee;
 }
 .pinterest {
     font-size: 42px;
-    /* font-size: 0.86rem; */
     color: rgba(134, 135, 139, 1);
     cursor: pointer;
     transition: 0.2s;
@@ -92,7 +86,6 @@ color: #00acee;
 
 .instagram {
     font-size: 42px;
-    /* font-size: 0.86rem; */
     color: rgba(134, 135, 139, 1);
     cursor: pointer;
     transition: 0.2s;
@@ -102,7 +95,6 @@ color: #00acee;
 }
 .stumbleupon {
     font-size: 42px;
-    /* font-size: 0.86rem; */
     color: rgba(134, 135, 139, 1);
     cursor: pointer;
     transition: 0.2s;
@@ -114,7 +106,6 @@ color: #00acee;
 }
 .telegram {
     font-size: 42px;
-    /* font-size: 0.86rem; */
     color: rgba(134, 135, 139, 1);
     cursor: pointer;
     transition: 0.2s;

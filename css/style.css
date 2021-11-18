@@ -66,5 +66,9 @@ z-index: 1;
 @media (max-width:705px){
     {font-size: 6px;}
 }
-
+@media (max-width:705px){
+    .container {
+        width: 100%;
+    }
+}
 

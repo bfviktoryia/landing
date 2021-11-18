@@ -120,9 +120,7 @@ margin: 0 -15px;
 }
 @media (max-width:909px) {
     .awesome-wrap {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-around;
     }
     .description {
         margin-bottom: 45px;
@@ -134,7 +132,7 @@ margin: 0 -15px;
         }
 
     .awesome-item {
-        width: 298px;
+        width: 280px;
         margin-bottom: 20px;
         }
     }
@@ -146,10 +144,6 @@ margin: 0 -15px;
             }
         .title {
                 width: 280px;
-            }
-    
-        .awesome-item {
-            width: 280px;
             }
     }
    

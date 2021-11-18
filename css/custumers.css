@@ -95,23 +95,16 @@ color: rgba(51, 51, 51, 1);
 @media (max-width:983px)
 {
     .customers-item {
-        width: 270px;
-        margin-bottom: 15px;
+        width: 280px;
+        margin-bottom: 25px;
     }
 }
 @media (max-width:909px)
 {
     .customers-wrap {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-  .customers-item {
-        width: 298px;
-        margin-bottom: 15px;
+        justify-content: space-around;
     }
 }
 @media (max-width:430px){
-    .customers-item {
-        width: 280px;
+    
 }
